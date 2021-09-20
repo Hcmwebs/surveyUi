@@ -1,0 +1,6 @@
+@use '../abstracts/' as *;
+@use '../components/' as *;
+
+.header {
+  @include grid(center);
+}

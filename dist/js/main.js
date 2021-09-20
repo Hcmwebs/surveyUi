@@ -1,0 +1,1 @@
+const closeBtn=document.getElementById("closeBtn"),count=document.getElementById("count"),spans=count.querySelectorAll("span");console.log(spans),spans.forEach(e=>{e.addEventListener("click",e=>{const t=e.currentTarget;t.classList.toggle("active")})});

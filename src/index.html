@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalise.css" />
+    <link rel="stylesheet" href="css/styles.css?cb=123" />
+    <script
+      src="https://kit.fontawesome.com/3d8fef6148.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Survey | UI</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="title">Survey</h1>
+        <div class="title-underline"></div>
+      </header>
+      <div class="card">
+        <div class="card__body">
+          <i class="fal fa-times-circle fa-2x" id='closeBtn'></i>
+          <h2 class="card__body__text">
+            How satisfied are you using our invoicing feature?
+          </h2>
+          <div class="card__body__count" id='count'>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span class = 'active'>5</span>
+          </div>
+          <div class="card__body__gauge">
+            <small class="smallText"
+              >Extremely <br />
+              dissatisfied</small
+            >
+            <small class="smallText"
+              >Extremely <br />
+              satisfied</small
+            >
+          </div>
+
+          <div class="card__body__checkbox">
+            <input type="checkbox" name="true" class="input" />
+            <label for="true" class="label">
+              I don´t use the invoicing feature</label
+            >
+          </div>
+
+          <div class="card__body__hr"></div>
+
+          <button class="btn btn-primary btn-block">
+            Next
+            <i class="fal fa-long-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js?cb=123"></script>
+  </body>
+</html>
