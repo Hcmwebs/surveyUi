@@ -1,1 +1,1 @@
-const closeBtn=document.getElementById("closeBtn"),count=document.getElementById("count"),spans=count.querySelectorAll("span");console.log(spans),spans.forEach(e=>{e.addEventListener("click",e=>{const t=e.currentTarget;t.classList.toggle("active")})});
+const closeBtn=document.getElementById("closeBtn"),count=document.getElementById("count"),spans=count.querySelectorAll("span");spans.forEach(t=>{t.addEventListener("click",()=>{spans.forEach(e=>{e!==t&&e.classList.remove("active")}),t.classList.toggle("active")})});
